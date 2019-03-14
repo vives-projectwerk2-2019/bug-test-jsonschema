@@ -4,7 +4,7 @@ var v = new Validator();
 
 var dataObject = {
     Player: {
-        username: "Jelle",
+        username: "10",
         movement: "up",
         dev_id: "ttn", 
         action: "rocket", // don't know what this will be yet
@@ -12,7 +12,7 @@ var dataObject = {
     },
     Controller: {
         id: 0,
-        addons: [null, null, null], 
+        addons: [20, null, null], 
         dev_id: ""
     }
 };
@@ -55,4 +55,8 @@ var schemaObject = {
 v.addSchema(jsonschemaPlayer, '/SchemaPlayer');
 v.addSchema(jsonschemaController, '/SchemaController');
 console.log(v.validate(dataObject, schemaObject));
+
+if(v.validate(dataObject, schemaObject).valid){
+    console.log("Object is validated!");
+}
 
