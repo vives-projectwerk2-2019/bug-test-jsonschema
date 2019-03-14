@@ -44,7 +44,7 @@ var jsonschemaController = {
     }
 };
 
-var schema = {
+var schemaObject = {
     "type": "object",
     "properties": {
         "Player": {"$ref": "/SchemaPlayer"},
@@ -54,5 +54,5 @@ var schema = {
 
 v.addSchema(jsonschemaPlayer, '/SchemaPlayer');
 v.addSchema(jsonschemaController, '/SchemaController');
-console.log(v.validate(dataObject, schema));
+console.log(v.validate(dataObject, schemaObject));
 
