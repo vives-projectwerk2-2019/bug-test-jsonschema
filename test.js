@@ -1,5 +1,5 @@
 //this will test the json schema
-var Validator = require('jsonschema').validate;
+var Validator = require('jsonschema').Validator;
 var v = new Validator();
 
 var dataObject = {
