@@ -1,0 +1,24 @@
+{
+  "name": "bug-test-jsonschema",
+  "version": "1.0.0",
+  "description": "How to run:",
+  "main": "test.js",
+  "dependencies": {
+    "jsonschema": "^1.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vives-projectwerk2-2019/bug-test-jsonschema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vives-projectwerk2-2019/bug-test-jsonschema/issues"
+  },
+  "homepage": "https://github.com/vives-projectwerk2-2019/bug-test-jsonschema#readme"
+}
