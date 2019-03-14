@@ -1,4 +1,13 @@
 How to run:
 
--> npm i jsonschema
--> node ./test.js
+## Install dependencies
+
+```
+npm install
+```
+
+## Run applications
+
+```
+npm run start
+```
